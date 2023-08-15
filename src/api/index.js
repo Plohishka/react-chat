@@ -1,4 +1,4 @@
 export const getData = () => {
-    fetch('https://dummyjson.com/comments')
-    .then((response) => response.json())
+    return fetch('https://dummyjson.com/comments')
+    .then(responce => responce.json())
 }

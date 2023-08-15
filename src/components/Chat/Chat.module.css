@@ -2,3 +2,31 @@
     width: 700px;
     background-color: antiquewhite;
 }
+
+.userAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.message p {
+    margin: 5px;
+}
+
+.wrapperColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.nickname {
+    font-weight: bold;
+}
